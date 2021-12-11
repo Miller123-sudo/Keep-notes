@@ -11,7 +11,7 @@ const Header = () => {
           <div className="title">Keep Notes</div>
         </Link>
         <Link to="/allnotes">
-          <div className="title">Deleted Notes</div>
+          <div className="title" style={{ width: "200px" }}>Deleted Notes</div>
         </Link>
       </div>
     </>
